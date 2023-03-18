@@ -1,0 +1,306 @@
+marka,seri,yıl,km,vites,yakıt, kasa_tipi,motor_hacmi,motor_gücü,fiyat
+
+brand,series,year,km,gear,fuel,body_type,engine_displacement,engine_power,price
+
+marka
+----------
+Audi : 1
+BMW : 2
+Fiat : 3
+Ford : 4
+Hyundai : 5
+Mercedes - Benz : 6
+Renault : 7
+Skoda : 8
+Toyota : 9
+Volkswagen : 10
+
+
+********************
+
+yakıt
+----------
+Benzin : 1
+Dizel : 2
+LPG & Benzin : 3
+Hibrit : 4
+Elektrik : 5
+********************
+
+vites
+----------
+Düz : 1
+Yarı Otomatik : 2
+Otomatik : 3
+********************
+
+kasa_tipi
+----------
+Sedan : 1
+Station Wagon : 2
+Hatchback/5 : 3
+Cabrio : 4
+Coupe : 5
+Hatchback/3 : 6
+MPV : 7
+Roadster : 8
+********************
+
+motor_gücü (hp)
+----------
+50'ye kadar : 50
+51 - 75 : 63
+201 - 225 : 213
+126 - 150 : 138
+151 - 175 : 163
+176 - 200 : 188
+101 - 125 : 113
+76 - 100 : 88
+251 - 275 : 263
+301 - 325 : 313
+226 - 250 : 238
+276 - 300 : 288
+551 - 575 : 563
+326 - 350 : 338
+401 - 425 : 413
+376 - 400 : 388
+501 - 525 : 513
+476 - 500 : 488
+********************
+
+motor_hacmi (cc)
+----------
+2001 - 2500 cm3 : 2250
+1401 - 1600 cm3 : 1500
+1801 - 2000 cm3 : 1900
+1301 - 1600 cm3 : 1450
+3501 - 4000 cm3 : 3750
+1601 - 1800 cm3 : 1700
+2501 - 3000 cm3 : 2750
+1200 cm3' e kadar : 1200
+1201 - 1400 cm3 : 1300
+3001 - 3500 cm3 : 3250
+4001 - 4500 cm3 : 4250
+4501 - 5000 cm3 : 4750
+********************
+
+çekiş
+----------
+Arkadan İtiş : 1
+4WD (Sürekli) : 2
+Önden Çekiş : 3
+********************
+
+seri
+----------
+----------
+audi
+----------
+A1 : 1
+A3 : 2
+A4 : 3
+A5 : 4
+A6 : 5
+A7 : 6
+A8 : 7
+80 Serisi : 8
+90 Serisi : 9
+100 Serisi : 10
+RS : 11
+TT : 12
+S : 13
+
+bmw
+----------
+1 Serisi : 101
+2 Serisi : 102
+3 Serisi : 103
+4 Serisi : 104
+5 Serisi : 105
+6 Serisi : 106
+7 Serisi : 107
+i Serisi : 108
+M Serisi : 109
+Z Serisi : 110
+
+fiat
+----------
+500 Ailesi : 201
+Albea : 202
+Brava : 203
+Bravo : 204
+Croma : 205*
+Egea : 206
+Idea : 207
+Linea : 208
+Marea : 209
+Palio : 210
+Panda : 211
+Punto : 212
+Siena : 213
+Stilo : 214
+Tempra : 215
+Tipo : 216
+Uno : 217
+
+ford
+----------
+B-Max : 301
+C-Max : 302
+Escort : 303
+Festiva : 304
+Fiesta : 305
+Focus : 306
+Fusion : 307
+Galaxy : 308*
+Granada : 309
+Ka : 310
+Mondeo : 311 
+Mustang : 312*
+S-Max : 313
+Scorpio : 314
+Sierra : 315*
+Taunus : 316
+Thunderbird : 317*
+
+hyundai
+----------
+Accent : 401
+Accent Blue : 402
+Accent Era : 403
+Atos : 404
+Coupe : 405
+Elantra : 406
+Excel : 407
+Genesis : 408*
+Getz : 409
+i10 : 410
+i20 : 411
+i20 Active : 412
+i20 N : 413*
+i20 Troy : 414
+i30 : 415
+i40 : 416*
+Ioniq : 417*
+ix20 : 418
+Matrix : 419
+Sonata : 420
+Trajet : 421*
+
+mercedes-benz
+----------
+A : 501 -
+EQE : 502*
+EQS : 503 -
+AMG GT: 504 -
+B : 505 -
+C : 506 -
+CL : 507 -
+CLA : 508 -
+CLC : 509 -
+CLK : 510 - 
+CLS : 511 -
+E : 512 -
+Maybach S : 513 -
+R : 514*
+S : 515 -
+SL : 516 -
+SLC : 517 -
+SLS : 518 -
+190 : 519
+200 : 520
+230 : 521
+240 : 522
+250 : 523
+260 : 524
+280 : 525
+300 : 526
+320 : 527*
+560 : 528*
+
+renault
+----------
+Clio : 601
+Espace : 602*
+Fluence : 603
+Grand Scenic : 604
+Laguna : 605
+Latitude : 606
+Megane : 607
+Modus : 608
+R 5 : 609
+Safrane : 610*
+Scenic : 611
+Symbol : 612
+Taliant : 613
+Talisman : 614
+Twingo : 615
+Vel Satis : 616*
+Zoe : 617*
+R 9 : 618
+R 11 : 619
+R 12 : 620
+R 19 : 621
+R 21 : 622
+
+skoda
+----------
+Citigo : 701*
+Fabia : 702
+Favorit : 703
+Felicia : 704
+Forman : 705
+Octavia : 706
+Rapid : 707
+Roomster : 708
+Scala : 709
+SuperB : 710
+
+toyota
+----------
+Auris : 801
+Avensis : 802
+Camry : 803*
+Carina : 804
+Celica : 805*
+Corolla : 806
+Corona : 807
+Cressida : 808*
+Starlet : 809*
+Urban Cruiser : 810*
+Verso : 811
+Yaris : 812
+
+volkswagen
+----------
+Arteon : 901*
+Bora : 902
+Golf : 903
+Jetta : 904
+Lupo : 905*
+New Beetle : 906
+Passat : 907
+Passat Alltrack : 908*
+Passat Variant : 909
+Polo : 910
+Santana : 911*
+Scirocco : 912
+Sharan : 913*
+The Beetle : 914*
+Touran : 915
+Vento : 916*
+VW CC : 917
+
+
+
+
+
+
+
+
+
+
+
+
+
+
